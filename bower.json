@@ -1,0 +1,17 @@
+{
+  "name": "angular-playground",
+  "version": "0.0.0",
+  "authors": [
+    "Robert Rees"
+  ],
+  "description": "Angular test page",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "None",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.23"
+  }
+}
