@@ -1,0 +1,19 @@
+
+<!doctype html>
+<html ng-app="adviceApp">
+	<head>
+	</head>
+
+	<body>
+
+	<div ng-controller="EightBallController">
+		<h1>Eight Ball</h1>
+		<p ng-show="hasAdvice">{{currentAdvice}}</p>
+		<button ng-click="seekAdvice()">Help plz?</button>
+	</div>
+
+	<script src="/bower_components/angular/angular.js"></script>
+	<script src="/public/8ball/advice.js"></script>
+	</body>
+
+</html>
