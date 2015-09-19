@@ -5,7 +5,14 @@ angular.module('passwordApp', [])
     }])
     .directive('passwordPicker', [function() {
             return {
-                templateUrl: 'password-directive.html'
+                templateUrl: 'password-directive.html',
+                restrict: 'E',
+                link: function($scope, $element, $attrs) {
+                    $scope.password = "Not yet generated"
+                },
+                scope: {
+
+                }
             };
         }
     ]);
